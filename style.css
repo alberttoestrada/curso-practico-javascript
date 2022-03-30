@@ -1,0 +1,107 @@
+*{
+    background-color: #ea899a;
+}
+.titulo1{
+    text-align: center;
+}
+.texto12{
+    text-align: center;
+}
+.figurasimg{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+.cuadroimg{
+    width: 80px;
+    height: 80px;
+    margin-left: 120px;
+}
+.trianguloimg{
+    width: 80px;
+    height: 80px;
+    margin-right: 120px;
+}
+.container{
+    display: flex;
+    margin-top: 100px;
+}
+.cuadrado{
+    width: 50%;
+    height: 50%;
+    display: inline-block;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px;
+    border-style:solid;
+    position: relative;
+    border-color: blue;
+    margin-right: 10px;
+}
+.triangulo{
+    width: 50%;
+    height: 50%;
+    display: inline-block;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px;
+    border-style:solid;
+    position: relative;
+    border-color:red
+}
+.formcuadro{
+    display: grid;
+    justify-content: center;
+}
+.formtriangulo{
+    display: grid;
+  justify-content: center;
+}
+#InputCuadrado{
+    width: 150px;
+    margin-top: 15px;
+    margin-left:30%;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#InputTriangulo{
+    width: 150px;
+    margin-top: 15px;
+    margin-left:30%;
+    margin-bottom: 10px;
+    text-align: center;
+}
+#InputTriangulo2{
+    width: 150px;
+    margin-top: 15px;
+    margin-left:30%;
+    margin-bottom: 10px;
+    text-align: center;
+}
+#InputTriangulo3{
+    width: 150px;
+    margin-top: 15px;
+    margin-left:30%;
+    margin-bottom: 10px;
+    text-align: center;
+}
+#InputTriangulo4{
+    width: 150px;
+    margin-top: 15px;
+    margin-left:30%;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.button{
+    width: 150px;
+    margin-top: 15px;
+    margin-left:32%;
+    margin-bottom: 15px;
+}
+
+
+
+
+
+

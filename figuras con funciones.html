@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figuras Geometricas | Curso practico de JavasCript </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="title">
+        <h1 class="titulo1">
+            Figuras Geometricas
+        </h1>
+        <p class="texto12">
+            Este es el primer taller del curso de JavaScript
+        </p>
+    </header>
+    <figure class="figurasimg">
+        <img src="https://cdn.pixabay.com/photo/2020/06/04/13/22/square-5258734_960_720.png" alt="es la imagen de un cuadrado" class="cuadroimg">
+        <img src="https://cdn.pixabay.com/photo/2020/06/04/13/22/triangle-5258735_960_720.png" alt="es la imagen de un triangulo" class="trianguloimg">
+    </figure>
+
+    <div class="container">
+
+    <section class="cuadrado">
+        <h2>
+            Calcula el area y perimetro de un cuadrado
+        </h2>
+        <form action="" class="formcuadro">
+            <label for="InputCuadrado">
+                Escribe cuanto mide cada lado de tu cuadrado:
+            </label>
+            <input  id="InputCuadrado" type="number" placeholder="Lado">
+            <button type="button" onclick="CalcularPerimetroCuadrado()" class="button">
+                Calcular Perimetro
+            </button>
+            <button type="button" onclick="CalcularAreaCuadrado()" class="button">
+                Calcular Area
+            </button>
+        </form>
+        
+    </section>
+    <section class="triangulo">
+        <h2>
+            Calcula el area y perimetro de un triangulo
+        </h2>
+        <form action=""class=formtriangulo>
+            <label for="InputTriangulo" class="label2">
+                Escribe cuanto mide cada lado de tu triangulo:
+            </label>
+            <input  id="InputTriangulo" type="number" placeholder="Lado A" class="inputA">
+
+            <label for="InputTriangulo2" class="label2">
+            </label>
+            <input  id="InputTriangulo2" type="number" placeholder="Lado B" class="inputB">
+            
+            <label for="InputTriangulo3" class="label2">
+            </label>
+            <input  id="InputTriangulo3" type="number" placeholder="Base" class="inputBas">
+            
+            <label for="InputTriangulo4" class="label2">
+            </label>
+            <input  id="InputTriangulo4" type="number" placeholder="Altura" class="inputAltura">
+
+            <button type="button" onclick="CalcularPerimetroTriangulo()" class="button">
+                Calcular Perimetro
+            </button>
+            <button type="button" onclick="CalcularAreaTriangulo()" class="button">
+                Calcular Area
+            </button>
+        </form>
+    </section>
+
+    </div>
+
+    <script src="/curso-practico-javascript/figuras con funciones.js"></script>
+</body>
+</html>
